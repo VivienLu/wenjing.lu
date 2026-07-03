@@ -1,56 +1,160 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
+excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<span class='anchor' id='about-me'></span>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Hi, I am Wenjing Lu, a fourth-year Ph.D. student at Shanghai Jiao Tong University, advised by [Prof. Yang Yang](https://compbio.sjtu.edu.cn) and [Prof. Yi Hong](https://scholar.google.com/citations?user=16OATcwAAAAJ). I am currently a Student Trainee at the RIKEN Center for Advanced Intelligence Project (AIP), supervised by [Dr. Qibin Zhao](https://scholar.google.com/citations?user=cSQGe3YAAAAJ). Before that, I received my master's degree from the National University of Singapore (NUS).
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My research interests center on two closely connected directions: **(1) principled theories and methods for uncertainty quantification**, with a focus on calibration, reliability, and robust decision-making, and **(2) medical image analysis**, especially uncertainty-aware learning for segmentation and foundation model adaptation. Recently, I have also become interested in **uncertainty modeling for agentic AI systems**, where reliable uncertainty quantification is crucial for selecting actions, such as querying, orchestrating, routing, or stopping. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<font color="red"><b><i>I am actively seeking postdoctoral positions starting in early 2027</i></b></font>, my [CV](/files/WenjingLu_CV_2Page.pdf) is available here.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+*Please feel free to email me for research, collaborations, or a casual chat.*
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Email: luluerji [at] sjtu.edu.cn / wenjing.lu [at] riken.jp
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<!-- *Please consider giving me [anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSeE4_y14QlUtJ8MhltnGnWwco7J1sWprXnlGoFWFo002k26lw/viewform?usp=sf_link).* -->
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+# 📣 News
 
-**Markdown generator**
+<div class="news-scroll" markdown="1">
+- **$\frak{2026.03}$**: Our paper "Calibrating Uncertainty for Zero-Shot Adversarial CLIP" is accepted by [ICML 2026](https://arxiv.org/pdf/2512.12997).
+- **$\frak{2026.01}$**: Our paper "Harmonizing Generalization and Specialization: Uncertainty-Informed Collaborative Learning for Semi-supervised Medical Image Segmentation" is accepted by [IEEE TMI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11397067).
+</div>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+# 📖 Educations
+- *2025.04 - present*, Student Trainee, RIKEN AIP, advised by [Dr. Qibin Zhao](https://scholar.google.com/citations?user=cSQGe3YAAAAJ).
+- *2022.09 - present*, Ph.D. Candidate, AGI Institute, School of Computer Science, Shanghai Jiao Tong University (SJTU), advised by [Prof. Yang Yang](https://scholar.google.com/citations?user=-PN_6coAAAAJ) and [Prof. Yi Hong](https://scholar.google.com/citations?user=16OATcwAAAAJ).
+, advised by [Dr. Bo Han](https://bhanml.github.io/).
+- *2021.08 – 2022.06*, M.S, National University of Singapore (NUS).
+- *2017.09 - 2021.06*, B.Eng, University of Electronic Science and Technology of China (UESTC).
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<!-- # 📝 Featured Publications
+TODO -->
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+# 📝 Publications
+✉️ Corresponding author.
+
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='https://github.com/VivienLu/wenjing.lu/blob/master/images/UCAT_poster_ICML-5.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1" style="flex: 1;">
+
+[![Static Badge](https://img.shields.io/badge/Conference-ICML'26-blue)]() **Calibrating Uncertainty for Zero-Shot Adversarial CLIP**. 
+
+**Wenjing Lu**, Zerui Tao, Dongping Zhang, Yuning Qiu, Yang Yang✉️, Qibin Zhao✉️. 
+
+[[paper]](https://arxiv.org/pdf/2512.12997)
+[[code]](https://github.com/VivienLu/UCAT)
+[[poster]](https://github.com/VivienLu/wenjing.lu/blob/master/images/UCAT_poster_ICML-5.pdf)
+
+<!-- [[code]]()
+[[slides]]()
+[[poster]]()
+[[CN-video]]()
+[[EN-video]]()    -->
+  
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/images/OverallFramework.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[![Static Badge](https://img.shields.io/badge/Journal-IEEETMI'26-green)]() **Harmonizing Generalization and Specialization: Uncertainty-Informed Collaborative Learning for Semi-supervised Medical Image Segmentation**.  
+
+**Wenjing Lu**, Yi Hong✉️, Yang Yang✉️.
+
+[[paper]](https://arxiv.org/pdf/2512.13101)
+[[code]](https://github.com/VivienLu/UnCoL)
+<!-- [[EN-video]]()    -->
+  
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/images/UP-SAM_framework.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[![Static Badge](https://img.shields.io/badge/Conference-BIBM'24-blue)]() **UP-SAM: Uncertainty-Informed Adaptation of Segment Anything Model for Semi-Supervised Medical Image Segmentation**.  
+
+**Wenjing Lu**, Yi Hong✉️, Yang Yang✉️.
+
+[[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10822398)
+[[slides]](files/B939-UP-SAM.pdf)
+<!--[[slides]](./data/slides/NeurIPS24_CoPA.pdf)
+[[poster]](./data/poster/neurips24_CoPA.pdf)
+[[CN-video]](https://www.bilibili.com/video/BV1vaUNYTEr3/?spm_id_from=333.999.0.0&vd_source=a1aae47e2835186f922fa2e1c94933c9)
+[[EN-video]](https://recorder-v3.slideslive.com/?share=93487&s=0f9f72ed-d9ad-4f34-a0aa-154e07b6f3d7)-->   
+  
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src='/images/UPCoL_poster-4.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[![Static Badge](https://img.shields.io/badge/Conference-MICCAI'23-blue)]() **UPCoL: Uncertainty-informed Prototype Consistency Learning for Semi-supervised Medical Image Segmentation**.  
+
+ Wenjing Lu, Jiahao Lei, Peng Qiu, Rui Sheng, Jinhua Zhou, Xinwu Lu, Yang Yang✉️.
+
+[[paper]](https://link.springer.com/chapter/10.1007/978-3-031-43901-8_63)
+[[code]](https://github.com/VivienLu/UPCoL)
+[[poster]](images/UPCoL_poster-4.pdf)
+  
+</div>
+</div>
+<!--<details>
+<summary>Quick Introduction</summary>
+ In cross-domain few-shot classification (CFC), recent works mainly focus on adapting a simple transformation head on top of a frozen pre-trained backbone with few labeled data to project embeddings into a task-specific metric space where classification can be performed by measuring similarities between image instance and prototype representations. Technically, an assumption implicitly adopted in such a framework is that the prototype and image instance embeddings share the same representation transformation. However, in this paper, we find that there naturally exists a gap, which resembles the modality gap, between the prototype and image instance embeddings extracted from the frozen pre-trained backbone, and simply applying the same transformation during the adaptation phase constrains exploring the optimal representation distributions and shrinks the gap between prototype and image representations. <br><br>
+ To solve this problem, we propose a simple yet effective method, contrastive prototype-image adaptation (CoPA), to adapt different transformations for prototypes and images similarly to CLIP by treating prototypes as text prompts. <br><br>
+Extensive experiments on Meta-Dataset demonstrate that CoPA achieves the state-of-the-art performance more efficiently. Meanwhile, further analyses also indicate that CoPA can learn better representation clusters, enlarge the gap, and achieve the minimum validation loss at the enlarged gap.
+</details>-->
+
+
+
+# 🎖 Awards
+- *2026.05*, Golden Reviewer Award, ICML'26, Seoul.
+- *2024.12*, Student Travel Award, BIBM'24, Lisbon.
+- *2022.05*, Second Prize Award for AI paper presentation, AI Research Student Conference 2022 (ARSC‘22), Singapore.
+- *2021.06*, Outstanding Graduate of UESTC.
+
+
+# 💻 Services
+- Area Chair: ICLR 2026 Workshop DeLTa, ICML 2026 Workshop FoGen
+- Conference Reviewer for ICML, NeurIPS, MICCAI.
+- Journal Reviewer for EAAI.
+
+
+# 🏫 Teaching
+- **CS7336** (G) Machine Learning, Sem. 2, 2023 - 2024
+
+<!-- # 📖 Academic Experiences -->
+<!-- - *2026.03 - 2026.06*, Visiting student @[RIKEN Imperfect Information Learning Team](https://www.riken.jp/en/research/labs/aip/generic_tech/imperfect_inf_learn/index.html), advised by [Dr. Takashi Ishida](https://takashiishida.github.io/) and [Prof. Masashi Sugiyama](https://www.ms.k.u-tokyo.ac.jp/sugi/). -->
+<!-- - *2023.09 - present*, PhD student @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Dr. Bo Han. -->
+<!-- - *2022.07 - 2023.05*, Research intern @HKBU-[TMLR Group](https://bhanml.github.io/group.html), advised by Dr. Bo Han and Dr. Feng Liu.
+ -->
+
+# 🏢 Experiences
+- *2021.08 - 2022.05*, Research Intern @A*STAR I²R, host by Prof. Bharadwaj Veeravalli and Dr. Zeng Zeng.
+- *2020.05 - 2022.08*, Research Intern @UCAS, host by Prof. Yan Liu and Prof. Ling Wang.
+
+  
+<!-- <div align=center> -->
+<!-- <a href='https://clustrmaps.com/site/1byjf'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=080808&w=400&t=tt&d=EuVM39DBt0G0cQJh20EJFBL7BHU5A5hzsTXUdCbe7Ic&co=ffffff&ct=808080'/></a> -->
+<!--<a href='https://clustrmaps.com/site/1byjf'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=080808&w=a&t=m&d=EuVM39DBt0G0cQJh20EJFBL7BHU5A5hzsTXUdCbe7Ic&co=ffffff&ct=808080'/></a>-->
+<!-- <a href="https://clustrmaps.com/site/1bztd" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=9WmKAuGZx-jp_Cqemh_qyo-Fhw-l77tju_9bukYAC-o&cl=ffffff"></a> -->
+<!-- </div> -->
