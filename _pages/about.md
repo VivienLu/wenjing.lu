@@ -31,8 +31,8 @@ Email: luluerji [at] sjtu.edu.cn / wenjing.lu [at] riken.jp
 # 📣 News
 
 <div class="news-scroll" markdown="1">
-- **$\frak{2026.03}$**: Our paper "Calibrating Uncertainty for Zero-Shot Adversarial CLIP" is accepted by [ICML 2026](https://arxiv.org/pdf/2512.12997).
-- **$\frak{2026.01}$**: Our paper "Harmonizing Generalization and Specialization: Uncertainty-Informed Collaborative Learning for Semi-supervised Medical Image Segmentation" is accepted by [IEEE TMI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11397067).
+- **2026.03**: Our paper "Calibrating Uncertainty for Zero-Shot Adversarial CLIP" is accepted by [ICML 2026](https://arxiv.org/pdf/2512.12997).
+- **2026.01**: Our paper "Harmonizing Generalization and Specialization: Uncertainty-Informed Collaborative Learning for Semi-supervised Medical Image Segmentation" is accepted by [IEEE TMI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11397067).
 </div>
 
 # 📖 Educations
@@ -50,7 +50,7 @@ TODO -->
 ✉️ Corresponding author.
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='https://github.com/VivienLu/wenjing.lu/blob/master/images/UCAT_poster_ICML-5.pdf' alt="sym" width="100%"></div></div>
+<img src='/images/UCAT_poster_ICML-5.pdf' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="flex: 1;">
 
 [![Static Badge](https://img.shields.io/badge/Conference-ICML'26-blue)]() **Calibrating Uncertainty for Zero-Shot Adversarial CLIP**. 
@@ -86,7 +86,7 @@ TODO -->
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='/images/UP-SAM_framework.png' alt="sym" width="100%"></div></div>
+<img src='https://github.com/VivienLu/wenjing.lu/blob/master/images/UP-SAM_framework.png' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Conference-BIBM'24-blue)]() **UP-SAM: Uncertainty-Informed Adaptation of Segment Anything Model for Semi-Supervised Medical Image Segmentation**.  
