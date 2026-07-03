@@ -15,8 +15,8 @@ main:
   #   url: /talks/    
 
   # - title: "Teaching"
-  - title: "Services"
-    url: /teaching/    
+  # - title: "Services"
+  #   url: /teaching/    
     
   # - title: "Portfolio"
   #   url: /portfolio/
@@ -25,7 +25,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: https://github.com/VivienLu/wenjing.lu/blob/master/files/WenjingLu_CV_2Page.pdf
     
   # - title: "CV"
   #   url: /cv-json/
