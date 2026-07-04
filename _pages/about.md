@@ -48,25 +48,21 @@ TODO -->
 
 # 📝 Publications
 ✉️ Corresponding author.
-
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="https://raw.githubusercontent.com/VivienLu/wenjing.lu/master/_pages/figures/UCAT_poster_ICML.png" alt="UCAT poster" width="100%">
+    <img src="{{ site.baseurl }}/images/UCAT_poster_ICML.png" alt="UCAT poster">
   </div>
 
   <div class="paper-box-text" markdown="1">
 
-[![Static Badge](https://img.shields.io/badge/Conference-ICML'26-blue)]() **Calibrating Uncertainty for Zero-Shot Adversarial CLIP**. 
+[![Static Badge](https://img.shields.io/badge/Conference-ICML'26-blue)]()
+**Calibrating Uncertainty for Zero-Shot Adversarial CLIP**.
 
-**Wenjing Lu**, Zerui Tao, Dongping Zhang, Yuning Qiu, Yang Yang✉️, Qibin Zhao✉️. 
+**Wenjing Lu**, Zerui Tao, Dongping Zhang, Yuning Qiu, Yang Yang, Qibin Zhao.
 
 [[paper]](https://arxiv.org/pdf/2512.12997)
 [[code]](https://github.com/VivienLu/UCAT)
-[[poster]](https://github.com/VivienLu/wenjing.lu/blob/master/images/UCAT_poster_ICML-5.pdf)
-
-  </div>
-</div>
-
+[[poster]]({{ site.baseurl }}/images/UCAT_poster_ICML-5.pdf)
 <!-- [[code]]()
 [[slides]]()
 [[poster]]()
