@@ -16,15 +16,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Wenjing Lu, a fourth-year Ph.D. student at Shanghai Jiao Tong University, advised by [Prof. Yang Yang](https://compbio.sjtu.edu.cn) and [Prof. Yi Hong](https://scholar.google.com/citations?user=16OATcwAAAAJ). I am currently a Student Trainee at the RIKEN Center for Advanced Intelligence Project (AIP), supervised by [Dr. Qibin Zhao](https://scholar.google.com/citations?user=cSQGe3YAAAAJ). Before that, I received my master's degree from the National University of Singapore (NUS).
+Hi, I am Wenjing Lu, a fourth-year Ph.D. student at Shanghai Jiao Tong University (SJTU), advised by [Prof. Yang Yang](https://compbio.sjtu.edu.cn) and [Prof. Yi Hong](https://scholar.google.com/citations?user=16OATcwAAAAJ). I am currently a Student Trainee at the RIKEN Center for Advanced Intelligence Project (AIP), supervised by [Dr. Qibin Zhao](https://scholar.google.com/citations?user=cSQGe3YAAAAJ). Before that, I received my master's degree from the National University of Singapore (NUS).
 
 My research interests center on two closely connected directions: **(1) principled theories and methods for uncertainty quantification**, with a focus on calibration, reliability, and robust decision-making, and **(2) medical image analysis**, especially uncertainty-aware learning for segmentation and foundation model adaptation. Recently, I have also become interested in **uncertainty modeling for agentic AI systems**, where reliable uncertainty quantification is crucial for selecting actions, such as querying, orchestrating, routing, or stopping. 
-
-<font color="red"><b><i>I am actively seeking postdoctoral positions starting in early 2027</i></b></font>, my [CV](/files/WenjingLu_CV_2Page.pdf) is available here.
 
 *Please feel free to email me for research, collaborations, or a casual chat.*
 
 Email: luluerji [at] sjtu.edu.cn / wenjing.lu [at] riken.jp
+
+<font color="red"><b><i>I am actively seeking postdoctoral positions starting in early 2027.</i></b></font>
 
 <!-- *Please consider giving me [anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSeE4_y14QlUtJ8MhltnGnWwco7J1sWprXnlGoFWFo002k26lw/viewform?usp=sf_link).* -->
 
@@ -38,7 +38,6 @@ Email: luluerji [at] sjtu.edu.cn / wenjing.lu [at] riken.jp
 # 📖 Educations
 - *2025.04 - present*, Student Trainee, RIKEN AIP, advised by [Dr. Qibin Zhao](https://scholar.google.com/citations?user=cSQGe3YAAAAJ).
 - *2022.09 - present*, Ph.D. Candidate, AGI Institute, School of Computer Science, Shanghai Jiao Tong University (SJTU), advised by [Prof. Yang Yang](https://scholar.google.com/citations?user=-PN_6coAAAAJ) and [Prof. Yi Hong](https://scholar.google.com/citations?user=16OATcwAAAAJ).
-, advised by [Dr. Bo Han](https://bhanml.github.io/).
 - *2021.08 – 2022.06*, M.S, National University of Singapore (NUS).
 - *2017.09 - 2021.06*, B.Eng, University of Electronic Science and Technology of China (UESTC).
 
@@ -50,7 +49,7 @@ TODO -->
 ✉️ Corresponding author.
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='/images/UCAT_poster_ICML-5.pdf' alt="sym" width="100%"></div></div>
+<img src='https://github.com/VivienLu/wenjing.lu/blob/master/images/UCAT_poster_ICML-5.pdf' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1" style="flex: 1;">
 
 [![Static Badge](https://img.shields.io/badge/Conference-ICML'26-blue)]() **Calibrating Uncertainty for Zero-Shot Adversarial CLIP**. 
@@ -71,7 +70,7 @@ TODO -->
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='/images/OverallFramework.pdf' alt="sym" width="100%"></div></div>
+<img src='https://github.com/VivienLu/wenjing.lu/blob/master/images/OverallFramework.pdf' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Journal-IEEETMI'26-green)]() **Harmonizing Generalization and Specialization: Uncertainty-Informed Collaborative Learning for Semi-supervised Medical Image Segmentation**.  
@@ -104,7 +103,7 @@ TODO -->
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='/images/UPCoL_poster-4.pdf' alt="sym" width="100%"></div></div>
+<img src='https://github.com/VivienLu/wenjing.lu/blob/master/images/UPCoL_poster-4.pdf' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Conference-MICCAI'23-blue)]() **UPCoL: Uncertainty-informed Prototype Consistency Learning for Semi-supervised Medical Image Segmentation**.  
