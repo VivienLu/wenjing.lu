@@ -26,6 +26,7 @@ Email: luluerji [at] sjtu.edu.cn / wenjing.lu [at] riken.jp
 
 <font color="red"><b><i>I am actively seeking postdoctoral positions starting in early 2027.</i></b></font>
 
+
 <!-- *Please consider giving me [anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSeE4_y14QlUtJ8MhltnGnWwco7J1sWprXnlGoFWFo002k26lw/viewform?usp=sf_link).* -->
 
 # 📣 News
@@ -48,9 +49,12 @@ TODO -->
 # 📝 Publications
 ✉️ Corresponding author.
 
-<div class='paper-box'><div class='paper-box-image'><div>
-<img src='https://github.com/VivienLu/wenjing.lu/blob/master/images/UCAT_poster_ICML-5.pdf' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1" style="flex: 1;">
+<div class="paper-box">
+  <div class="paper-box-image">
+    <img src="https://raw.githubusercontent.com/VivienLu/wenjing.lu/master/_pages/figures/UCAT_poster_ICML.png" alt="UCAT poster" width="100%">
+  </div>
+
+  <div class="paper-box-text" markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Conference-ICML'26-blue)]() **Calibrating Uncertainty for Zero-Shot Adversarial CLIP**. 
 
@@ -59,6 +63,9 @@ TODO -->
 [[paper]](https://arxiv.org/pdf/2512.12997)
 [[code]](https://github.com/VivienLu/UCAT)
 [[poster]](https://github.com/VivienLu/wenjing.lu/blob/master/images/UCAT_poster_ICML-5.pdf)
+
+  </div>
+</div>
 
 <!-- [[code]]()
 [[slides]]()
