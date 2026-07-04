@@ -49,13 +49,10 @@ TODO -->
 # 📝 Selected Publications
 ✉️ Corresponding author.
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <!-- <img src="/_pages/figures/UCAT_poster_ICML.png" alt="UCAT poster" width="100%"> -->
-    <img src="{{ '/images/UCAT_poster_ICML.png' | relative_url }}" alt="UCAT poster">
-  </div>
 
-  <div class="paper-box-text" markdown="1">
+<div class='paper-box'><div class='paper-box-image'><div>
+<img src="{{ '/images/UCAT_poster_ICML.png' | relative_url }}" alt="sym" width="50%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Conference-ICML'26-blue)]() **Calibrating Uncertainty for Zero-Shot Adversarial CLIP**. 
 
