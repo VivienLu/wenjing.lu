@@ -109,7 +109,7 @@ TODO -->
 
 [![Static Badge](https://img.shields.io/badge/Conference-MICCAI'23-blue)]() **UPCoL: Uncertainty-informed Prototype Consistency Learning for Semi-supervised Medical Image Segmentation**.  
 
- Wenjing Lu, Jiahao Lei, Peng Qiu, Rui Sheng, Jinhua Zhou, Xinwu Lu, Yang Yang✉️.
+**Wenjing Lu**, Jiahao Lei, Peng Qiu, Rui Sheng, Jinhua Zhou, Xinwu Lu, Yang Yang✉️.
 
 [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-43901-8_63)
 [[code]](https://github.com/VivienLu/UPCoL)
