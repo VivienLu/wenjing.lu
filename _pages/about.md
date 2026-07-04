@@ -46,12 +46,13 @@ Email: luluerji [at] sjtu.edu.cn / wenjing.lu [at] riken.jp
 TODO -->
 
 
-# 📝 Publications
+# 📝 Selected Publications
 ✉️ Corresponding author.
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/_pages/figures/UCAT_poster_ICML.png" alt="UCAT poster" width="100%">
+    <!-- <img src="/_pages/figures/UCAT_poster_ICML.png" alt="UCAT poster" width="100%"> -->
+    <img src="{{ '/images/UCAT_poster_ICML.png' | relative_url }}" alt="UCAT poster">
   </div>
 
   <div class="paper-box-text" markdown="1">
@@ -88,7 +89,7 @@ TODO -->
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='/images/UP-SAM_framework.png' alt="sym" width="50%"></div></div>
+<img src="{{ '/images/UP-SAM_framework.png' | relative_url }}" alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Conference-BIBM'24-blue)]() **UP-SAM: Uncertainty-Informed Adaptation of Segment Anything Model for Semi-Supervised Medical Image Segmentation**.  
