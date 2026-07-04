@@ -51,7 +51,7 @@ TODO -->
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="https://raw.githubusercontent.com/VivienLu/wenjing.lu/master/_pages/figures/UCAT_poster_ICML.png" alt="UCAT poster" width="100%">
+    <img src="/_pages/figures/UCAT_poster_ICML.png" alt="UCAT poster" width="100%">
   </div>
 
   <div class="paper-box-text" markdown="1">
@@ -73,7 +73,7 @@ TODO -->
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='https://github.com/VivienLu/wenjing.lu/blob/master/images/OverallFramework.pdf' alt="sym" width="50%"></div></div>
+<img src='/images/OverallFramework.pdf' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Journal-IEEETMI'26-green)]() **Harmonizing Generalization and Specialization: Uncertainty-Informed Collaborative Learning for Semi-supervised Medical Image Segmentation**.  
@@ -88,7 +88,7 @@ TODO -->
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='https://github.com/VivienLu/wenjing.lu/blob/master/images/UP-SAM_framework.png' alt="sym" width="50%"></div></div>
+<img src='/images/UP-SAM_framework.png' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Conference-BIBM'24-blue)]() **UP-SAM: Uncertainty-Informed Adaptation of Segment Anything Model for Semi-Supervised Medical Image Segmentation**.  
@@ -106,7 +106,7 @@ TODO -->
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='https://github.com/VivienLu/wenjing.lu/blob/master/images/UPCoL_poster-4.pdf' alt="sym" width="50%"></div></div>
+<img src='/images/UPCoL_poster-4.pdf' alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Conference-MICCAI'23-blue)]() **UPCoL: Uncertainty-informed Prototype Consistency Learning for Semi-supervised Medical Image Segmentation**.  
