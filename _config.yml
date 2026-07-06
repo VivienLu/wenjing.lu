@@ -26,9 +26,10 @@ author:
   avatar           : https://vivienlu.github.io/wenjing.lu/files/bio.JPG
   name             : "Wenjing Lu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Candidate at Shanghai Jiao Tong University (SJTU) | Research Intern at RIKEN AIP"
+  bio              : "Ph.D. Candidate at SJTU and RIKEN AIP | Uncertainty Quantification & Medical Image Analysis"
   location         : "Tokyo"
   employer         : "Shanghai Jiao Tong University"
+  employer         : "RIKEN AIP"
   uri              : # URL
   email            : "luluerji@sjtu.edu.cn" 
 
