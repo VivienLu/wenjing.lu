@@ -104,7 +104,7 @@ TODO -->
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='/images/UPCoL_poster-4.pdf' alt="sym" width="50%"></div></div>
+<img src="{{ '/images/UPCoL_framework.png' | relative_url }}" alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Conference-MICCAI'23-blue)]() **UPCoL: Uncertainty-informed Prototype Consistency Learning for Semi-supervised Medical Image Segmentation**.  
