@@ -37,10 +37,10 @@ Email: luluerji [at] sjtu.edu.cn / wenjing.lu [at] riken.jp
 </div>
 
 # 📖 Educations
-- *2025.04 - present*, Student Trainee, RIKEN AIP, advised by [Dr. Qibin Zhao](https://scholar.google.com/citations?user=cSQGe3YAAAAJ).
-- *2022.09 - present*, Ph.D. Candidate, AGI Institute, School of Computer Science, Shanghai Jiao Tong University (SJTU), advised by [Prof. Yang Yang](https://scholar.google.com/citations?user=-PN_6coAAAAJ) and [Prof. Yi Hong](https://scholar.google.com/citations?user=16OATcwAAAAJ).
-- *2021.08 – 2022.06*, M.S, National University of Singapore (NUS).
-- *2017.09 - 2021.06*, B.Eng, University of Electronic Science and Technology of China (UESTC).
+- **2025.04 - present**, Student Trainee, RIKEN AIP, advised by [Dr. Qibin Zhao](https://scholar.google.com/citations?user=cSQGe3YAAAAJ).
+- **2022.09 - present**, Ph.D. Candidate, AGI Institute, School of Computer Science, Shanghai Jiao Tong University (SJTU), advised by [Prof. Yang Yang](https://scholar.google.com/citations?user=-PN_6coAAAAJ) and [Prof. Yi Hong](https://scholar.google.com/citations?user=16OATcwAAAAJ).
+- **2021.08 – 2022.06**, M.S, National University of Singapore (NUS).
+- **2017.09 - 2021.06**, B.Eng, University of Electronic Science and Technology of China (UESTC).
 
 <!-- # 📝 Featured Publications
 TODO -->
@@ -127,10 +127,10 @@ Extensive experiments on Meta-Dataset demonstrate that CoPA achieves the state-o
 
 
 # 🎖 Awards
-- *2026.05*, Golden Reviewer Award, ICML'26, Seoul.
-- *2024.12*, Student Travel Award, BIBM'24, Lisbon.
-- *2022.05*, Second Prize Award for AI paper presentation, AI Research Student Conference 2022 (ARSC‘22), Singapore.
-- *2021.06*, Outstanding Graduate of UESTC.
+- **2026.05**, Golden Reviewer Award, ICML'26, Seoul.
+- **2024.12**, Student Travel Award, BIBM'24, Lisbon.
+- **2022.05**, Second Prize Award for AI paper presentation, AI Research Student Conference 2022 (ARSC‘22), Singapore.
+- **2021.06**, Outstanding Graduate of UESTC.
 
 
 # 💻 Services
@@ -149,8 +149,8 @@ Extensive experiments on Meta-Dataset demonstrate that CoPA achieves the state-o
  -->
 
 # 🏢 Experiences
-- *2021.08 - 2022.05*, Research Intern @A*STAR I²R, host by Prof. Bharadwaj Veeravalli and Dr. Zeng Zeng.
-- *2020.05 - 2022.08*, Research Intern @UCAS, host by Prof. Yan Liu and Prof. Ling Wang.
+- **2021.08 - 2022.05**, Research Intern @A*STAR I²R, host by Prof. Bharadwaj Veeravalli and Dr. Zeng Zeng.
+- **2020.05 - 2022.08**, Research Intern @UCAS, host by Prof. Yan Liu and Prof. Ling Wang.
 
   
 <!-- <div align=center> -->
