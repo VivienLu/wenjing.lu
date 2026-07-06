@@ -71,7 +71,7 @@ TODO -->
 </div>
 
 <div class='paper-box'><div class='paper-box-image'><div>
-<img src='/images/OverallFramework.pdf' alt="sym" width="50%"></div></div>
+<img src="{{ '/images/UnCoL-framework.png' | relative_url }}" alt="sym" width="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [![Static Badge](https://img.shields.io/badge/Journal-IEEETMI'26-green)]() **Harmonizing Generalization and Specialization: Uncertainty-Informed Collaborative Learning for Semi-supervised Medical Image Segmentation**.  
