@@ -32,8 +32,8 @@ Email: luluerji [at] sjtu.edu.cn / wenjing.lu [at] riken.jp
 # 📣 News
 
 <div class="news-scroll" markdown="1">
-- **2026.03**: Our paper "Calibrating Uncertainty for Zero-Shot Adversarial CLIP" is accepted by [ICML 2026](https://arxiv.org/pdf/2512.12997).
-- **2026.01**: Our paper "Harmonizing Generalization and Specialization: Uncertainty-Informed Collaborative Learning for Semi-supervised Medical Image Segmentation" is accepted by [IEEE TMI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11397067).
+- **2026.05**: Our paper "Calibrating Uncertainty for Zero-Shot Adversarial CLIP" is accepted by [ICML 2026](https://arxiv.org/pdf/2512.12997).
+- **2026.02**: Our paper "Harmonizing Generalization and Specialization: Uncertainty-Informed Collaborative Learning for Semi-supervised Medical Image Segmentation" is accepted by [IEEE TMI](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11397067).
 </div>
 
 # 📖 Educations
