@@ -134,7 +134,7 @@ Extensive experiments on Meta-Dataset demonstrate that CoPA achieves the state-o
 
 
 # 💻 Services
-- Area Chair: ICLR 2026 Workshop DeLTa, ICML 2026 Workshop FoGen
+- Area Chair: ICLR 2026 Workshop DeLTa, ICML 2026 Workshop FoGen.
 - Conference Reviewer for ICML, NeurIPS, MICCAI.
 - Journal Reviewer for EAAI.
 
@@ -150,7 +150,6 @@ Extensive experiments on Meta-Dataset demonstrate that CoPA achieves the state-o
 
 # 🏢 Experiences
 - **2021.08 - 2022.05**, Research Intern @A*STAR I²R, host by Prof. Bharadwaj Veeravalli and Dr. Zeng Zeng.
-- **2020.05 - 2022.08**, Research Intern @UCAS, host by Prof. Yan Liu and Prof. Ling Wang.
 
   
 <!-- <div align=center> -->
