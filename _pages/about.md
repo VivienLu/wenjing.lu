@@ -135,8 +135,8 @@ Extensive experiments on Meta-Dataset demonstrate that CoPA achieves the state-o
 
 # 💻 Services
 - Area Chair: ICLR 2026 Workshop DeLTa, ICML 2026 Workshop FoGen.
-- Conference Reviewer for ICML, NeurIPS, MICCAI.
-- Journal Reviewer for EAAI and NN.
+- Conference Reviewer for ICML, NeurIPS, MICCAI, AAAI.
+- Journal Reviewer for EAAI, NN.
 
 
 # 🏫 Teaching
