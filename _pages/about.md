@@ -95,6 +95,7 @@ TODO -->
 
 [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10822398)
 [[slides]](files/B939-UP-SAM.pdf)
+[[code]](https://github.com/VivienLu/UP-SAM)
 <!--[[slides]](./data/slides/NeurIPS24_CoPA.pdf)
 [[poster]](./data/poster/neurips24_CoPA.pdf)
 [[CN-video]](https://www.bilibili.com/video/BV1vaUNYTEr3/?spm_id_from=333.999.0.0&vd_source=a1aae47e2835186f922fa2e1c94933c9)
@@ -134,7 +135,7 @@ Extensive experiments on Meta-Dataset demonstrate that CoPA achieves the state-o
 
 
 # 💻 Services
-- Area Chair: DeLTa @ ICLR 2026; FoGen @ ICML 2026.
+- Area Chair: DeLTa @ ICLR 2026, FoGen @ ICML 2026.
 - Conference Reviewer: ICML, NeurIPS, MICCAI, AAAI.
 - Journal Reviewer: EAAI, NN.
 
