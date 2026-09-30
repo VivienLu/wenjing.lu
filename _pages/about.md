@@ -24,7 +24,9 @@ My research interests center on two closely connected directions: **(1) principl
 
 Email: luluerji [at] sjtu.edu.cn / wenjing.lu [at] riken.jp
 
-<font color="red"><b><i>I am seeking postdoctoral and industrial research opportunities and would be glad to connect.</i></b></font>
+<div class="notice--warning" style="font-size: 1em !important; font-weight: 700; line-height: 1.5; color: #494e52;">
+🚀 I am seeking postdoctoral and industrial research opportunities and would be glad to connect.
+</div>
 
 
 <!-- *Please consider giving me [anonymous feedback](https://docs.google.com/forms/d/e/1FAIpQLSeE4_y14QlUtJ8MhltnGnWwco7J1sWprXnlGoFWFo002k26lw/viewform?usp=sf_link).* -->
