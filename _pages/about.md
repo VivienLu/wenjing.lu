@@ -16,13 +16,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Wenjing Lu, a fourth-year Ph.D. student at Shanghai Jiao Tong University (SJTU), advised by [Prof. Yang Yang](https://compbio.sjtu.edu.cn) and [Prof. Yi Hong](https://scholar.google.com/citations?user=16OATcwAAAAJ). I am currently a Research Intern at the Vector Institute and the University of British Columbia (UBC) in Vancouver, working with [Prof. Xiaoxiao Li](https://xxlya.github.io/). Previously, I was a Student Trainee at the RIKEN Center for Advanced Intelligence Project (AIP), supervised by [Dr. Qibin Zhao](https://scholar.google.com/citations?user=cSQGe3YAAAAJ). Before that, I received my master's degree from the National University of Singapore (NUS).
+Hi, I am Wenjing Lu, a fourth-year Ph.D. student at Shanghai Jiao Tong University (SJTU), advised by [Prof. Yang Yang](https://compbio.sjtu.edu.cn) and [Prof. Yi Hong](https://scholar.google.com/citations?user=16OATcwAAAAJ). I am currently a Research Intern at the Vector Institute and a Visiting International Research Student at the University of British Columbia (UBC) in Vancouver, working with [Prof. Xiaoxiao Li](https://xxlya.github.io/). Previously, I was a Student Trainee at the RIKEN Center for Advanced Intelligence Project (AIP), supervised by [Dr. Qibin Zhao](https://scholar.google.com/citations?user=cSQGe3YAAAAJ). Before that, I received my master's degree from the National University of Singapore (NUS).
 
 My research interests center on two closely connected directions: **(1) principled theories and methods for uncertainty quantification**, with a focus on calibration, reliability, and robust decision-making, and **(2) medical image analysis**, especially uncertainty-aware learning for segmentation and foundation model adaptation. Recently, I have also become interested in **uncertainty modeling for agentic AI systems**, where reliable uncertainty quantification is crucial for selecting actions, such as querying, orchestrating, routing, or stopping. 
 
 *Please feel free to email me for research, collaborations, or a casual chat.*
 
-Email: luluerji [at] sjtu.edu.cn
+Email: luluerji [at] sjtu.edu.cn, lwenjing [at] student.ubc.ca
 
 <div class="notice--warning" style="font-size: 1em !important; font-weight: 700; line-height: 1.5; color: #494e52;">
 🚀 I am seeking postdoctoral and industrial research opportunities and would be glad to connect.
@@ -45,7 +45,7 @@ Email: luluerji [at] sjtu.edu.cn
 
 
 # 🏢 Experiences
-- **2026.10 - present**, Research Intern @Vector Institute & UBC, Vancouver, advised by [Prof. Xiaoxiao Li](https://xxlya.github.io/).
+- **2026.10 - present**, Research Intern @Vector Institute & Visiting Research Student @UBC, Vancouver, advised by [Prof. Xiaoxiao Li](https://xxlya.github.io/).
 - **2025.04 - 2026.09**, Student Trainee @RIKEN AIP, Tokyo, advised by [Dr. Qibin Zhao](https://scholar.google.com/citations?user=cSQGe3YAAAAJ).
 - **2021.08 - 2022.05**, Research Intern @A*STAR I²R, hosted by Prof. Bharadwaj Veeravalli and Dr. Zeng Zeng.
 <!-- # 📝 Featured Publications
